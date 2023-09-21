@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="560.0" style="-fx-background-color: #222;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.guiController">
+    <children>
+        <Label alignment="TOP_CENTER" layoutX="47.0" layoutY="46.0" minHeight="30.0" minWidth="464.0" style="-fx-background-color: #17f6b2;" text="Teacher" textFill="WHITE">
+            <font>
+                <Font size="38.0" />
+            </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#222222" height="404.0" layoutX="48.0" layoutY="151.0" stroke="WHITE" strokeType="INSIDE" width="464.0" />
+        <Pane fx:id="s1Box" layoutX="80.0" layoutY="167.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s7Box" layoutX="80.0" layoutY="435.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s4Box" layoutX="80.0" layoutY="302.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s2Box" layoutX="240.0" layoutY="167.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s8Box" layoutX="240.0" layoutY="435.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s5Box" layoutX="240.0" layoutY="302.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s3Box" layoutX="400.0" layoutY="168.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s9Box" layoutX="400.0" layoutY="436.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Pane fx:id="s6Box" layoutX="400.0" layoutY="303.0" prefHeight="78.0" prefWidth="78.0" style="-fx-border-color: white; -fx-border-radius: 5px;" />
+        <Line endX="-100.0" endY="405.0" layoutX="289.0" layoutY="150.0" startX="-100.0" startY="1.0" stroke="WHITE" />
+        <Line endX="559.0" endY="233.0999755859375" layoutX="-47.0" layoutY="26.0" startX="95.29290771484375" startY="233.09999084472656" stroke="WHITE" AnchorPane.leftAnchor="47.107077026367165" AnchorPane.rightAnchor="47.29292297363281" />
+        <Line endX="559.0" endY="233.0999755859375" layoutX="-48.0" layoutY="52.0" startX="96.0" startY="233.0999755859375" stroke="WHITE" />
+        <Line endX="559.0" endY="233.0999755859375" layoutX="-47.0" layoutY="158.0" startX="95.29290771484375" startY="233.09999084472656" stroke="WHITE" />
+        <Line endX="559.0" endY="233.0999755859375" layoutX="-48.0" layoutY="184.0" startX="96.0" startY="233.0999755859375" stroke="WHITE" />
+        <Line endX="559.0" endY="233.0999755859375" layoutX="-46.0" layoutY="294.0" startX="95.29290771484375" startY="233.09999084472656" stroke="WHITE" />
+        <Line endX="-100.0" endY="405.0" layoutX="465.0" layoutY="150.0" startX="-100.0" startY="1.0" stroke="WHITE" />
+        <Text fx:id="s1Name" fill="WHITE" layoutX="49.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s3Name" fill="WHITE" layoutX="368.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s9Name" fill="WHITE" layoutX="368.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s6Name" fill="WHITE" layoutX="368.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s7Name" fill="WHITE" layoutX="49.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s4Name" fill="WHITE" layoutX="48.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s8Name" fill="WHITE" layoutX="210.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s5Name" fill="WHITE" layoutX="210.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="s2Name" fill="WHITE" layoutX="208.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="141.33673095703125">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Label fx:id="showError" alignment="CENTER" layoutX="47.0" layoutY="568.0" minWidth="464.0" prefHeight="38.0" prefWidth="464.0">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Text fill="#17f6b2" layoutX="86.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name:" wrappingWidth="207.73675537109375">
+            <font>
+                <Font name="Marlett" size="22.0" />
+            </font>
+        </Text>
+        <Text fill="#17f6b2" layoutX="177.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color:" wrappingWidth="62.13671875">
+            <font>
+                <Font name="Marlett" size="22.0" />
+            </font>
+        </Text>
+        <TextField fx:id="nameChosen" layoutX="245.0" layoutY="627.0" />
+        <ColorPicker fx:id="colorChosen" layoutX="245.0" layoutY="664.0" />
+        <Button layoutX="221.0" layoutY="724.0" mnemonicParsing="false" onAction="#addStudentButton" prefHeight="38.0" prefWidth="115.0" style="-fx-background-color: #17f6b2;" text="Add Student" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
